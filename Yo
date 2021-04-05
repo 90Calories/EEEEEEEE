@@ -1,0 +1,389 @@
+-- Made By EH#9116 also known as Mysteriousx_FALLEN
+-- Version: 1.0
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local main = Instance.new("ImageLabel")
+local UICorner = Instance.new("UICorner")
+local Title = Instance.new("TextLabel")
+local Line = Instance.new("TextLabel")
+local GameS = Instance.new("TextLabel")
+local UICorner_2 = Instance.new("UICorner")
+local AdminGuis = Instance.new("TextLabel")
+local UICorner_3 = Instance.new("UICorner")
+local RagdollEngine = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local DarkHub = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local CocoHub = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local IslandsGUI = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local InfYield = Instance.new("TextButton")
+local UICorner_8 = Instance.new("UICorner")
+local CMDX = Instance.new("TextButton")
+local UICorner_9 = Instance.new("UICorner")
+local Adonis = Instance.new("TextButton")
+local UICorner_10 = Instance.new("UICorner")
+local Revizadmin = Instance.new("TextButton")
+local UICorner_11 = Instance.new("UICorner")
+local FeScripts = Instance.new("TextLabel")
+local UICorner_12 = Instance.new("UICorner")
+local Close = Instance.new("TextButton")
+local UICorner_13 = Instance.new("UICorner")
+local FeCar = Instance.new("TextButton")
+local UICorner_14 = Instance.new("UICorner")
+local HeadResize = Instance.new("TextButton")
+local UICorner_15 = Instance.new("UICorner")
+local TrollingGUI = Instance.new("TextButton")
+local UICorner_16 = Instance.new("UICorner")
+local InvisibleFling = Instance.new("TextButton")
+local UICorner_17 = Instance.new("UICorner")
+local openmain = Instance.new("Frame")
+local open = Instance.new("TextButton")
+
+--Properties:
+
+ScreenGui.Parent = game.CoreGui
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+main.Name = "main"
+main.Parent = ScreenGui
+main.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+main.Position = UDim2.new(0.00609291345, 0, 0.298419833, 0)
+main.Size = UDim2.new(0, 620, 0, 333)
+main.Visible = false
+main.Image = "http://www.roblox.com/asset/?id=6606836306"
+main.Active = true
+main.Draggable = true
+
+UICorner.Parent = main
+
+Title.Name = "Title"
+Title.Parent = main
+Title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title.BackgroundTransparency = 1.000
+Title.Size = UDim2.new(0, 200, 0, 50)
+Title.Font = Enum.Font.Nunito
+Title.Text = "Anime Hub"
+Title.TextColor3 = Color3.fromRGB(0, 0, 0)
+Title.TextScaled = true
+Title.TextSize = 14.000
+Title.TextWrapped = true
+
+Line.Name = "Line"
+Line.Parent = main
+Line.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Line.Position = UDim2.new(0.00967741944, 0, 0.129129127, 0)
+Line.Size = UDim2.new(0, 608, 0, 0)
+Line.Font = Enum.Font.SourceSans
+Line.Text = ""
+Line.TextColor3 = Color3.fromRGB(0, 0, 0)
+Line.TextSize = 14.000
+
+GameS.Name = "GameS"
+GameS.Parent = main
+GameS.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+GameS.BackgroundTransparency = 0.500
+GameS.Position = UDim2.new(0.00967741944, 0, 0.15015015, 0)
+GameS.Size = UDim2.new(0, 200, 0, 50)
+GameS.Font = Enum.Font.Nunito
+GameS.Text = "Games"
+GameS.TextColor3 = Color3.fromRGB(254, 178, 219)
+GameS.TextScaled = true
+GameS.TextSize = 14.000
+GameS.TextWrapped = true
+
+UICorner_2.Parent = GameS
+
+AdminGuis.Name = "Admin Gui's"
+AdminGuis.Parent = main
+AdminGuis.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+AdminGuis.BackgroundTransparency = 0.500
+AdminGuis.Position = UDim2.new(0.637096763, 0, 0.15015015, 0)
+AdminGuis.Size = UDim2.new(0, 200, 0, 50)
+AdminGuis.Font = Enum.Font.Nunito
+AdminGuis.Text = "Admin Gui's"
+AdminGuis.TextColor3 = Color3.fromRGB(254, 185, 212)
+AdminGuis.TextScaled = true
+AdminGuis.TextSize = 14.000
+AdminGuis.TextWrapped = true
+
+UICorner_3.Parent = AdminGuis
+
+RagdollEngine.Name = "Ragdoll Engine"
+RagdollEngine.Parent = main
+RagdollEngine.BackgroundColor3 = Color3.fromRGB(98, 99, 99)
+RagdollEngine.BackgroundTransparency = 0.500
+RagdollEngine.Position = UDim2.new(0.03064516, 0, 0.3003003, 0)
+RagdollEngine.Size = UDim2.new(0, 174, 0, 50)
+RagdollEngine.Font = Enum.Font.SourceSans
+RagdollEngine.Text = "Ragdoll Engine"
+RagdollEngine.TextColor3 = Color3.fromRGB(254, 173, 241)
+RagdollEngine.TextScaled = true
+RagdollEngine.TextSize = 14.000
+RagdollEngine.TextWrapped = true
+RagdollEngine.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet(('https://pastebin.com/raw/T7weKqag'),true))()
+end)
+
+UICorner_4.Parent = RagdollEngine
+
+DarkHub.Name = "Dark Hub"
+DarkHub.Parent = main
+DarkHub.BackgroundColor3 = Color3.fromRGB(98, 99, 99)
+DarkHub.BackgroundTransparency = 0.500
+DarkHub.Position = UDim2.new(0.03064516, 0, 0.468468487, 0)
+DarkHub.Size = UDim2.new(0, 174, 0, 50)
+DarkHub.Font = Enum.Font.SourceSans
+DarkHub.Text = "Dark Hub"
+DarkHub.TextColor3 = Color3.fromRGB(254, 173, 241)
+DarkHub.TextScaled = true
+DarkHub.TextSize = 14.000
+DarkHub.TextWrapped = true
+DarkHub.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet(("https://darkhub.xyz/script"), true))()
+end)
+
+UICorner_5.Parent = DarkHub
+
+CocoHub.Name = "Coco Hub"
+CocoHub.Parent = main
+CocoHub.BackgroundColor3 = Color3.fromRGB(98, 99, 99)
+CocoHub.BackgroundTransparency = 0.500
+CocoHub.Position = UDim2.new(0.03064516, 0, 0.636636674, 0)
+CocoHub.Size = UDim2.new(0, 174, 0, 50)
+CocoHub.Font = Enum.Font.SourceSans
+CocoHub.Text = "Coco Hub"
+CocoHub.TextColor3 = Color3.fromRGB(254, 173, 241)
+CocoHub.TextScaled = true
+CocoHub.TextSize = 14.000
+CocoHub.TextWrapped = true
+CocoHub.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet(('https://gitlab.com/cococc/cocohub/-/raw/master/CocoLoader'),true))()
+end)
+
+UICorner_6.Parent = CocoHub
+
+IslandsGUI.Name = "Islands GUI"
+IslandsGUI.Parent = main
+IslandsGUI.BackgroundColor3 = Color3.fromRGB(98, 99, 99)
+IslandsGUI.BackgroundTransparency = 0.500
+IslandsGUI.Position = UDim2.new(0.03064516, 0, 0.810810864, 0)
+IslandsGUI.Size = UDim2.new(0, 174, 0, 50)
+IslandsGUI.Font = Enum.Font.SourceSans
+IslandsGUI.Text = "Islands GUI"
+IslandsGUI.TextColor3 = Color3.fromRGB(254, 173, 241)
+IslandsGUI.TextScaled = true
+IslandsGUI.TextSize = 14.000
+IslandsGUI.TextWrapped = true
+IslandsGUI.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("http://void-scripts.com/Scripts/islands_new.lua"))()
+end)
+
+UICorner_7.Parent = IslandsGUI
+
+InfYield.Name = "Inf Yield"
+InfYield.Parent = main
+InfYield.BackgroundColor3 = Color3.fromRGB(98, 99, 99)
+InfYield.BackgroundTransparency = 0.500
+InfYield.Position = UDim2.new(0.658064485, 0, 0.30030036, 0)
+InfYield.Size = UDim2.new(0, 174, 0, 50)
+InfYield.Font = Enum.Font.SourceSans
+InfYield.Text = "Inf yield"
+InfYield.TextColor3 = Color3.fromRGB(254, 173, 241)
+InfYield.TextScaled = true
+InfYield.TextSize = 14.000
+InfYield.TextWrapped = true
+InfYield.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
+end)
+
+UICorner_8.Parent = InfYield
+
+CMDX.Name = "CMD X"
+CMDX.Parent = main
+CMDX.BackgroundColor3 = Color3.fromRGB(98, 99, 99)
+CMDX.BackgroundTransparency = 0.500
+CMDX.Position = UDim2.new(0.658064485, 0, 0.468468517, 0)
+CMDX.Size = UDim2.new(0, 174, 0, 50)
+CMDX.Font = Enum.Font.SourceSans
+CMDX.Text = "CMD X"
+CMDX.TextColor3 = Color3.fromRGB(254, 173, 241)
+CMDX.TextScaled = true
+CMDX.TextSize = 14.000
+CMDX.TextWrapped = true
+CMDX.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source",true))()
+end)
+
+UICorner_9.Parent = CMDX
+
+Adonis.Name = "Adonis"
+Adonis.Parent = main
+Adonis.BackgroundColor3 = Color3.fromRGB(98, 99, 99)
+Adonis.BackgroundTransparency = 0.500
+Adonis.Position = UDim2.new(0.658064485, 0, 0.636636674, 0)
+Adonis.Size = UDim2.new(0, 174, 0, 50)
+Adonis.Font = Enum.Font.SourceSans
+Adonis.Text = "Adonis"
+Adonis.TextColor3 = Color3.fromRGB(254, 173, 241)
+Adonis.TextScaled = true
+Adonis.TextSize = 14.000
+Adonis.TextWrapped = true
+Adonis.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/MQ3wc7Zq", true))()
+end)
+
+UICorner_10.Parent = Adonis
+
+Revizadmin.Name = "Reviz admin"
+Revizadmin.Parent = main
+Revizadmin.BackgroundColor3 = Color3.fromRGB(98, 99, 99)
+Revizadmin.BackgroundTransparency = 0.500
+Revizadmin.Position = UDim2.new(0.658064485, 0, 0.810810864, 0)
+Revizadmin.Size = UDim2.new(0, 174, 0, 50)
+Revizadmin.Font = Enum.Font.SourceSans
+Revizadmin.Text = "Reviz admin"
+Revizadmin.TextColor3 = Color3.fromRGB(254, 173, 241)
+Revizadmin.TextScaled = true
+Revizadmin.TextSize = 14.000
+Revizadmin.TextWrapped = true
+Revizadmin.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/Caniwq2N", true))()
+end)
+
+UICorner_11.Parent = Revizadmin
+
+FeScripts.Name = "Fe Scripts"
+FeScripts.Parent = main
+FeScripts.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+FeScripts.BackgroundTransparency = 0.500
+FeScripts.Position = UDim2.new(0.353225797, 0, 0.15015015, 0)
+FeScripts.Size = UDim2.new(0, 162, 0, 50)
+FeScripts.Font = Enum.Font.Nunito
+FeScripts.Text = "Fe Scripts"
+FeScripts.TextColor3 = Color3.fromRGB(254, 185, 212)
+FeScripts.TextScaled = true
+FeScripts.TextSize = 14.000
+FeScripts.TextWrapped = true
+
+UICorner_12.Parent = FeScripts
+
+Close.Name = "Close"
+Close.Parent = main
+Close.BackgroundColor3 = Color3.fromRGB(98, 99, 99)
+Close.BackgroundTransparency = 0.500
+Close.Position = UDim2.new(0.938709676, 0, 0.0210210215, 0)
+Close.Size = UDim2.new(0, 32, 0, 28)
+Close.Font = Enum.Font.SourceSans
+Close.Text = "X"
+Close.TextColor3 = Color3.fromRGB(0, 0, 0)
+Close.TextScaled = true
+Close.TextSize = 14.000
+Close.TextWrapped = true
+Close.MouseButton1Down:connect(function()
+	main.Visible = false
+	openmain.Visible = true
+end)
+
+UICorner_13.Parent = Close
+
+FeCar.Name = "Fe Car"
+FeCar.Parent = main
+FeCar.BackgroundColor3 = Color3.fromRGB(98, 99, 99)
+FeCar.BackgroundTransparency = 0.500
+FeCar.Position = UDim2.new(0.343548357, 0, 0.30030036, 0)
+FeCar.Size = UDim2.new(0, 174, 0, 50)
+FeCar.Font = Enum.Font.SourceSans
+FeCar.Text = "Fe Car"
+FeCar.TextColor3 = Color3.fromRGB(254, 173, 241)
+FeCar.TextScaled = true
+FeCar.TextSize = 14.000
+FeCar.TextWrapped = true
+FeCar.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/MonkoTubeYT/carscript/master/!carscript.lua',true))()
+end)
+
+UICorner_14.Parent = FeCar
+
+HeadResize.Name = "Head Resize"
+HeadResize.Parent = main
+HeadResize.BackgroundColor3 = Color3.fromRGB(98, 99, 99)
+HeadResize.BackgroundTransparency = 0.500
+HeadResize.Position = UDim2.new(0.343548357, 0, 0.465465546, 0)
+HeadResize.Size = UDim2.new(0, 174, 0, 50)
+HeadResize.Font = Enum.Font.SourceSans
+HeadResize.Text = "Head Resize"
+HeadResize.TextColor3 = Color3.fromRGB(254, 173, 241)
+HeadResize.TextScaled = true
+HeadResize.TextSize = 14.000
+HeadResize.TextWrapped = true
+HeadResize.MouseButton1Down:connect(function()
+	loadstring(game:HttpGetAsync('https://raw.githubusercontent.com/ProjectBoring/Head-Resize-v1/main/Head%20Size%20Obfuscated.lua'))()
+end)
+
+UICorner_15.Parent = HeadResize
+
+TrollingGUI.Name = "Trolling GUI"
+TrollingGUI.Parent = main
+TrollingGUI.BackgroundColor3 = Color3.fromRGB(98, 99, 99)
+TrollingGUI.BackgroundTransparency = 0.500
+TrollingGUI.Position = UDim2.new(0.343548357, 0, 0.636636734, 0)
+TrollingGUI.Size = UDim2.new(0, 174, 0, 50)
+TrollingGUI.Font = Enum.Font.SourceSans
+TrollingGUI.Text = "Trolling GUI"
+TrollingGUI.TextColor3 = Color3.fromRGB(254, 173, 241)
+TrollingGUI.TextScaled = true
+TrollingGUI.TextSize = 14.000
+TrollingGUI.TextWrapped = true
+TrollingGUI.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/wDh1eTdX"))()
+end)
+
+UICorner_16.Parent = TrollingGUI
+
+InvisibleFling.Name = "Invisible Fling"
+InvisibleFling.Parent = main
+InvisibleFling.BackgroundColor3 = Color3.fromRGB(98, 99, 99)
+InvisibleFling.BackgroundTransparency = 0.500
+InvisibleFling.Position = UDim2.new(0.343548357, 0, 0.810810924, 0)
+InvisibleFling.Size = UDim2.new(0, 174, 0, 50)
+InvisibleFling.Font = Enum.Font.SourceSans
+InvisibleFling.Text = "Invisible Fling"
+InvisibleFling.TextColor3 = Color3.fromRGB(254, 173, 241)
+InvisibleFling.TextScaled = true
+InvisibleFling.TextSize = 14.000
+InvisibleFling.TextWrapped = true
+InvisibleFling.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/U3DKSSe0"))()
+end)
+
+UICorner_17.Parent = InvisibleFling
+
+openmain.Name = "openmain"
+openmain.Parent = ScreenGui
+openmain.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+openmain.Position = UDim2.new(0, 0, 0.949820817, 0)
+openmain.Size = UDim2.new(0, 139, 0, 31)
+openmain.Active = true
+openmain.Draggable = true
+
+open.Name = "open"
+open.Parent = openmain
+open.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+open.BackgroundTransparency = 1.000
+open.Position = UDim2.new(0, 0, -0.129032373, 0)
+open.Size = UDim2.new(0, 139, 0, 36)
+open.Font = Enum.Font.Nunito
+open.Text = "Open"
+open.TextColor3 = Color3.fromRGB(0, 0, 0)
+open.TextScaled = true
+open.TextSize = 14.000
+open.TextWrapped = true
+open.MouseButton1Down:connect(function()
+	openmain.Visible = false
+	main.Visible = true
+end)
+
